@@ -65,7 +65,7 @@ for p in short_neg.split('\n'):
 
 
 save_documents = open("pickled_algos/documents.pickle","wb")
-pickle.dump(documents, save_classifier)
+pickle.dump(documents, save_documents)
 save_documents.close()
 
 
